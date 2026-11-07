@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.hamada-logo {
+    margin-left: 10px;
+    height: 110px;
+}
+
+header {
+    font-size: 20px;
+    background-color: rgb(246, 248, 188);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100px;
+    flex-wrap: wrap;
+
+
+
+}
+
+a {
+    margin-right: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: rgb(83, 72, 15);
+    color: beige;
+    border-radius: 15px;
+
+}
+
+a:active {
+    opacity: .8;
+}
+
+main {
+    text-align: left;
+    margin-left: 70px;
+    display: flex;
+}
+
+.h1-index {
+    font-size: 50px;
+    text-align: c;
+    margin-top: 50px;
+}
+
+.p-index {
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.saiba-mais {
+    padding: 8px;
+    border-radius: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.saiba-mais:hover {
+    cursor: pointer;
+    background-color: brown;
+    color: bisque;
+}
+
+.saiba-mais:active {
+    opacity: .8;
+}
+
+
+.text-main {
+    flex: 1;
+}
+
+.img-main {
+    flex: 1;
+    display: flex;
+}
+
+.brownie-img {
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 50px;
+
+}
